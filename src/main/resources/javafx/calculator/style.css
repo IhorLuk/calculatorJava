@@ -1,0 +1,29 @@
+/* Add styles to the entire application */
+.root {
+    -fx-background-color: #c2c2c2;
+}
+
+/* Add styles to the buttons */
+.button {
+    -fx-pref-width: 109px;
+    -fx-pref-height: 98px;
+    -fx-font-size: 18px;
+    -fx-background-color: #e0e0e0; /* Light grey background color */
+}
+
+/* Add styles for button hover effect */
+.button:hover {
+    -fx-background-color: #d9d9d9; /* Slightly darker grey on hover */
+}
+
+/* Add styles for button pressed effect */
+.button:pressed {
+    -fx-background-color: #bfbfbf; /* Even darker grey when pressed */
+}
+
+/* Add styles for the label */
+#output {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333; /* Dark text color */
+}
